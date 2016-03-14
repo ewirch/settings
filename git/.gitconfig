@@ -1,0 +1,24 @@
+[user]
+	name = Eduard Wirch
+	email = ew@omikron.net
+[push]
+    default = simple
+[core]
+	autocrlf = true
+	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -n -w
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files (x86)/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files (x86)/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = c:/Users/ew/.gitcommitmessage
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[http]
+	cookiefile = c:/Users/ew/.gitcookies
+[diff]
+	algorithm = patience
